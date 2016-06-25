@@ -13,9 +13,11 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('/profil', 'WelcomeController@profil');
+Route::get('/profil', 'ProfilController@index');
 
-Route::get('/materi', 'MateriController@index');
+// Route::get('/profil', 'WelcomeController@profil');
+
+// Route::get('/materi', 'MateriController@index');
 
 
 
